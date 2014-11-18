@@ -1,0 +1,31 @@
+#include <windows.h>
+
+GLUT_ICON ICON "files/icon.ico"
+MAINICON ICON "files/icon.ico"
+
+1 VERSIONINFO
+FILEVERSION 0,1,1,1
+PRODUCTVERSION 0,1,1,1
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "040904E4"
+		 {
+			 VALUE "CompanyName", "IJA"
+			 VALUE "FileVersion", "alpha 1.0"
+			 VALUE "FileDescription", "Magic Cube with OpenGL"
+			 VALUE "InternalName", "Rubik's Cube"
+			 VALUE "LegalCopyright", "GNU"
+			 VALUE "LegalTrademarks", "GNU"
+			 VALUE "OriginalFilename", "Magic_Cube"
+			 VALUE "ProductName", "Magic Cube IJA"
+			 VALUE "ProductVersion", "alpha 1.0"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+	 	//VALUE "Translation", 0x0409, 1252
+		VALUE "Translation", 0x0416, 1252
+	 }
+}

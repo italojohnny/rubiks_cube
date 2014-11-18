@@ -1,0 +1,50 @@
+1a.1.	Peças que se encontram no eixo X, na primeira coluna são movimentadas no sentido negativo.
+1a.2.	Seguir para o passo 3.
+Fluxo Alternativo: (1b) Jogador pressiona a tecla W.
+1b.1.	Peças que se encontram no eixo X, na segunda coluna são movimentadas no sentido positivo.
+1b.2.	Seguir para o passo 3.
+Fluxo Alternativo: (1c) Jogador pressiona a tecla S.
+1c.1.	Peças que se encontram no eixo X, na segunda coluna são movimentadas no sentido negativo.
+1c.2.	Seguir para o passo 3.
+Fluxo Alternativo: (1d) Jogador pressiona a tecla E.
+1d.1.	Peças que se encontram no eixo X, na terceira coluna são movimentadas no sentido positivo.
+1d.2.	Seguir para o passo 3.
+Fluxo Alternativo: (1e) Jogador pressiona a tecla D.
+Peças que se encontram no eixo X, na terceira coluna são movimentadas no sentido negativo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1f) Jogador pressiona a tecla R.
+Peças que se encontram no eixo Y, na primeira coluna são movimentadas no sentido positivo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1g) Jogador pressiona a tecla F.
+Peças que se encontram no eixo Y, na primeira coluna são movimentadas no sentido negativo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1h) Jogador pressiona a tecla T.
+Peças que se encontram no eixo Y, na segunda coluna são movimentadas no sentido positivo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1i) Jogador pressiona a tecla G.
+Peças que se encontram no eixo Y, na segunda coluna são movimentadas no sentido negativo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1j) Jogador pressiona a tecla Y.
+Peças que se encontram no eixo Y, na terceira coluna são movimentadas no sentido positivo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1k) Jogador pressiona a tecla H.
+Peças que se encontram no eixo Y, na terceira coluna são movimentadas no sentido negativo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1l) Jogador pressiona a tecla U.
+Peças que se encontram no eixo Z, na primeira coluna são movimentadas no sentido positivo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1m) Jogador pressiona a tecla J.
+Peças que se encontram no eixo Z, na primeira coluna são movimentadas no sentido negativo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1n) Jogador pressiona a tecla I.
+Peças que se encontram no eixo Z, na segunda coluna são movimentadas no sentido positivo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1o) Jogador pressiona a tecla K.
+Peças que se encontram no eixo Z, na segunda coluna são movimentadas no sentido negativo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1p) Jogador pressiona a tecla O.
+Peças que se encontram no eixo Z, na terceira coluna são movimentadas no sentido positivo.
+Seguir para o passo 3.
+Fluxo Alternativo: (1q) Jogador pressiona a tecla L.
+Peças que se encontram no eixo Z, na terceira coluna são movimentadas no sentido negativo.
+Seguir para o passo 3.
