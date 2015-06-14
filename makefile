@@ -10,7 +10,8 @@ Interface.o: Interface.cpp Interface.hpp
 main.o: main.cpp
 	g++ -c main.cpp
 
-Magic_Cube: Cube.o Rubik.o Interface.o main.o
-	g++ -o Magic_Cube main.o Interface.o Rubik.o Cube.o resources.o -lglut32cu -lglu32 -lopengl32 -static-libgcc -static-libstdc++ -mwindows && Magic_Cube
+all: Cube.o Rubik.o Interface.o main.o
+	g++ -o Magic_Cube main.cpp Interface.cpp Rubik.cpp Cube.cpp -lglut -lGLU -lGL -lm && ./Magic_Cube
+#	g++ -o Magic_Cube main.o Interface.o Rubik.o Cube.o resources.o -lglut32cu -lglu32 -lopengl32 -static-libgcc -static-libstdc++ -mwindows && Magic_Cube
 #	g++ -o Magic_Cube main.o Interface.o Rubik.o Cube.o resources.o -lglut32cu -lglu32 -lopengl32 -static-libgcc -static-libstdc++ && Magic_Cube
-	
+

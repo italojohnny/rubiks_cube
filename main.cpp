@@ -18,8 +18,8 @@ APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU para maiores detal
 #include <iostream>
 #include "Interface.hpp"
 
-int main(int argc, const char* argv[]){
-	Interface *interface = new Interface(&argc, argv);
+int main(int argc, char **argv){
+	Interface *interface = new Interface(argc, argv);
 	return 0;
 }
 /*

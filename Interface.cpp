@@ -18,11 +18,11 @@ APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU para maiores detal
 #include "Interface.hpp"
 Interface *_this;//Talvez, talvez isso pode ser chamdo de gambiarra. OpenGL obriga usar métodos staticos para suas funções de callbacks, em C++ essa é a única forma que sei para fazer os métodos callbacks conhecerem o mundo lá fora.
 
-Interface::Interface (int *argc, const char **argv)
+Interface::Interface (int &argc, char **argv)
 {
 	char title[] = "Cubo Magico ija";
 	_this = this;
-	//glutInit(argc, argv);//LINUX (Se estiver em linux, descomente essa linha).
+	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_DEPTH | GLUT_RGB);
 	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH) - WIDTH)/2, (glutGet(GLUT_SCREEN_HEIGHT) - HEIGHT)/2);

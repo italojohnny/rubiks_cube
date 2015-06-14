@@ -72,7 +72,7 @@ private:
 	static void Display (void);
 
 public:
-	Interface (int *argc, const char **argv);
+	Interface (int &argc, char **argv);
 };
 
 #endif
